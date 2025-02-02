@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Joseph Lamidi | Profile Card</title>
+  </head>
+  <body>
+    <main>
+      <div class="profile-card">
+        <img
+          src="profile.jpg"
+          alt="Profile Picture"
+          class="profile-pic"
+          data-testid="profile-picture"
+        />
+        <h2 class="name" data-testid="full-name">Joseph Lamidi</h2>
+        <h3 class="job-title" data-testid="job-title">FrontEnd Developer</h3>
+        <p class="bio" data-testid="bio">
+          Passionate frontend developer with experience in web technologies, and
+          also uses his skill to help the development of the dynamic
+          environment.
+        </p>
+        <p class="location" data-testid="current-location">📍 Lagos, Nigeria</p>
+        <p class="email" data-testid="email">
+          ✉️
+          <a href="mailto:josephlamidijoslam@gmail.com"
+            >josephlamidijoslam@gmail.com</a
+          >
+        </p>
+        <div class="social-links">
+          <a
+            href="https://github.com/Jaycode01"
+            target="_blank"
+            data-testid="github-link"
+            >GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/joseph-lamidi-9b83a4286/"
+            target="_blank"
+            data-testid="linkedin-link"
+            >LinkedIn</a
+          >
+          <a
+            href="https://twitter.com/joseph_can_code"
+            target="_blank"
+            data-testid="twitter-link"
+            >Twitter X</a
+          >
+        </div>
+        <p class="utc-time" data-testid="current-time">
+          UTC Time: <span id="utc-time"></span>
+        </p>
+      </div>
+    </main>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>
